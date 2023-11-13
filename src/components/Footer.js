@@ -5,8 +5,8 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className="w-full h-15 bg-white fixed bottom-0">
-      <div className="max-w-7xl mx-5 lg:mx-auto flex-wrap p-3">
+    <div className="w-full h-15 bg-white mt-20">
+      <div className="max-w-7xl mx-5 lg:mx-auto flex-wrap ">
        <div className="flex items-center justify-between">
           <h3 className='text-slate-800 text-xs lg:text-lg'>COPYRIGHT © 2023. ALL RIGHTS RESERVED</h3>
           <ul className="">

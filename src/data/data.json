@@ -4,6 +4,7 @@
         "type":"personal",
         "kind":"",
         "period":"3일",
+        "contribution":"100%",
         "skill":"React /Typescript",
         "img":"images/parcel_logo.svg"
     },
@@ -11,6 +12,7 @@
         "title":"Toy Project",
         "type":"study",
         "period":"in progress...",
+        "contribution":"20%",
         "skill":"HTML5 / CSS3 / Javascript",
         "img":"images/toyproject.svg"
     },
@@ -19,6 +21,7 @@
         "type":"personal",
         "kind":"",
         "period":"13일",
+        "contribution":"100%",
         "skill":"React / tailwindcss / Figma ",
         "img":"images/logo.svg"
 
@@ -27,6 +30,7 @@
         "title":"Greenping",
         "type":"team",
         "period":"30일",
+        "contribution":"20%",
         "skill":"React / Redux / styled-components / Firebase / Figma",
         "img":"images/greenpingtxt.svg"
 
@@ -35,6 +39,7 @@
         "title":"Todo App",
         "type":"personal",
         "period":"5일",
+        "contribution":"100%",
         "skill":"Node.js / React / MongoDB",
         "img":"images/toyproject.svg"
 
@@ -43,6 +48,7 @@
         "title":"Subway Website",
         "type":"clone",
         "period":"7일",
+        "contribution":"100%",
         "skill":"HTML5 / CSS3",
         "img":"images/subwaylogo.svg"
 
@@ -51,6 +57,7 @@
         "title":"Mcdonald's Website",
         "type":"clone",
         "period":"15일",
+        "contribution":"100%",
         "skill":"HTML5 / CSS3 / Javascript",
         "img":"images/mcdonaldslogo.svg"
     }

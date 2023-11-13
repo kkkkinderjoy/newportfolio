@@ -14,7 +14,7 @@ import store, { toggleTheme } from "./store";
 function App(){
 
   return(
-    <Provider store={store}> 
+    <Provider store={store} > 
       <Inner />
     </Provider>
   )

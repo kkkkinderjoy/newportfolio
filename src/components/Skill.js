@@ -107,7 +107,7 @@ function Skill() {
   return (
     <>
         <div className="w-full h-full flex my-20">
-            <div className="mx-auto max-w-7xl flex flex-wrap p-[0_2%]">
+            <div className="mx-auto max-w-7xl flex flex-wrap p-[0_3%]">
               <div className="w-full mt-12 text-center mb-10">
                 <p className='text-2xl font-semibold lg:text-4xl mb-10 italic'>Skill</p>
               </div>
