@@ -1,4 +1,4 @@
-import { faChevronRight, faPlusCircle } from '@fortawesome/free-solid-svg-icons'
+import { faBorderAll, faChevronRight, faList, faPlusCircle } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import datalist from '../data/data.json'
@@ -58,24 +58,24 @@ function Projects() {
     <>  
           <div className="w-full h-full flex mt-20">
             <div className="mx-auto max-w-7xl flex flex-wrap p-[0_2%]">
-              <div className="w-full mt-12 text-center mb-5">
+              <div className="w-full mt-12 text-center">
                 <p className='text-2xl font-semibold lg:text-4xl text-center mb-10 italic'>Projects</p>
-                  <div className="wrapper-filters py-10">
+                  <div className="wrapper-filters">
                       <div className="filters relative max-w-7xl mx-2 lg:mx-auto flex justify-between">
                         <ul className="flex">
                         {
                             menuType.map((category,i)=>{
                               return(
-                                <li key={i} className={`${isActive === i ? 'bg-[#D3E6F9] text-white' :'bg-white text-black'} cursor-pointer mr-2 text-sm md:lg-md lg:text-lg border dark:bg-[#272929] dark:text-[#ebf4f1] p-1 md:p-2 lg:p-3 rounded-md`} onClick={()=>{setIsActive(i); handleCategoryClick(category)}}>
+                                <li key={i} className={`${isActive === i ? 'bg-[#146ebe] text-white' :'bg-white text-black'} cursor-pointer mr-2 text-sm md:lg-md lg:text-lg border dark:bg-[#272929] dark:text-[#ebf4f1] p-1 md:p-2 lg:p-3 rounded-md`} onClick={()=>{setIsActive(i); handleCategoryClick(category)}}>
                                       {category}
                                 </li>
                               )
                             })
                           }
                         </ul>
-                        <div className="flex gap-2 md:mr-3">
-                            <span className="list border-[1px] border-slate-800 dark:border-white p-1 cursor-pointer flex" onClick={ActiveList}><img src={"images/icon-filter-list.svg"} alt="list" /></span>
-                            <span className="gallery border-[1px] border-slate-800 dark:border-white p-1 cursor-pointer" onClick={ActiveGallery}><img src={"images/filter_icon.svg"} alt="gallery" /></span>
+                        <div className="flex items-center gap-1">
+                            <span className="p-1 cursor-pointer flex" onClick={ActiveList}><FontAwesomeIcon icon={faList} className='sm:text-md md:text-xl lg:text-2xl hover:text-[#146ebe] dark:text-white'/></span>
+                            <span className="  p-1 cursor-pointer flex" onClick={ActiveGallery}><FontAwesomeIcon icon={faBorderAll} className='sm:text-md md:text-xl lg:text-2xl hover:text-[#146ebe] dark:text-white'/></span>
                           </div>
                          
                           {/* <span className={`relative pl-[20px]  cursor-pointer ${list ? 'bg-[url("../public/images/icon-filter-list.svg")]' : 'bg-[url("../public/images/filter_icon.svg")]'} bg-no-repeat`} onClick={toggle} >View

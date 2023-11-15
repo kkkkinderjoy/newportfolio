@@ -24,10 +24,10 @@ function Main() {
                         <div className="wave w-[20rem] h-[20rem] md:w-[25rem] md:h-[25rem] lg:w-[30rem] lg:h-[30rem] animate-morph">
                         <div className="txt ">
                             <div className="absolute top-10 right-10 ">
-                              <p className="bg-transparent txt-box text-[2rem] md:text-[4rem] lg:text-[6rem]" style={{transform:`translate(${position}px)`}}>Hong YoonJung</p>
+                              <p className="txt-box text-[2rem] md:text-[4rem] lg:text-[6rem]" style={{transform:`translate(${position}px)`, background: 'transparent'}}>Hong YoonJung</p>
                             </div>
                             <div className="absolute bottom-20 left-14">
-                               <p className="bg-transparent txt-box text-[2rem] md:text-[4rem] lg:text-[6rem]" style={{transform:`translate(${-position}px)`}}>FrontEnd Developer</p>
+                               <p className="txt-box text-[2rem] md:text-[4rem] lg:text-[6rem]" style={{transform:`translate(${-position}px)`, background: 'transparent'}}>FrontEnd Developer</p>
                             </div>
                         </div>
                         </div>

@@ -25,7 +25,7 @@ function About() {
                 </div>
                 <div className="txt mt-10 lg:mt-14 basis-full lg:basis-1/2">
                     <ul className=" font-medium text-md md:text-lg lg:text-xl mx-3">
-                    {offsetTop}
+                    {/* {offsetTop} */}
                       <li className="ko" style={{opacity: (position - 400)/200}}>안녕하세요 👋 주니어 프론트엔드 개발자 홍윤정입니다.</li>
                       <li className="ko my-2" style={{opacity: (position - 450)/230}}>수학문제를 풀면서 어려운 문제를 풀었을 때의 쾌감을 코딩을 하면서 똑같이 느낄 때 즐거움을 느껴요!</li>
                       <li className="ko my-2" style={{opacity: (position - 500)/250}}>React 라이브러리에서 컴포넌트 단위의 마크업 작업을 할 수 있어요. 반응형, 웹 접근성과 웹 표준을 고려한 웹 페이지를 만들수있습니다.</li>

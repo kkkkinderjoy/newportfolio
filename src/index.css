@@ -21,6 +21,9 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Montserrat',sans-serif;
 }
+.logo{
+  font-family: 'Roboto', sans-serif;
+}
 .ko{
   font-family: 'Pretendard-Regular';
 }
@@ -44,7 +47,8 @@ body{
 
 .shadow-off{
     box-shadow: -6px -5px 14px 3px #fff, 7px 7px 12px 0px #d0d8e3;
-    text-shadow: 0 0 4px #fff
+    text-shadow: 0 0 4px #fff;
+    
 }
 .shadow-on{
   box-shadow: -6px -5px 14px 3px rgb(241,244,245), 7px 7px 12px 0px #d0d8e3;

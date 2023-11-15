@@ -3,7 +3,6 @@ import Main from "./components/Main";
 import Projects from "./components/Projects";
 import { useEffect, useState } from "react";
 import Footer from "./components/Footer";
-import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Skill from "./components/Skill";
 import Scroll from "./components/Scroll";

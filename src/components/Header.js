@@ -30,9 +30,11 @@ function Header() {
   return (
     <>   
     <div className="w-full h-[6rem] bg-white text-slate-800 p-3">        
-      <div className="max-w-full mx-auto lg:mx-10 flex-wrap flex justify-between">
+      <div className="max-w-7xl mx-auto lg:mx-10 flex-wrap flex justify-between">
           <ul className="">
-            <li className=""><img src={"images/logo.svg"} alt="logo" className='w-10 h-10 lg:w-12 lg:h-12' title="Hong's portfolio"/></li>
+            <li className="">
+              <div className="logo font-extrabold sm:text-lg md:text-xl lg:text-3xl">HYJ</div>
+            </li>
           </ul>
           <ul className='flex gap-3 dark:bg-transparent'>
                     <li className="flex items-center dark:bg-transparent">
