@@ -18,13 +18,13 @@ function About() {
   return (
     <>
         <div className="w-full h-full bg-white py-20 dark:bg-slate-800 dark:text-white">
-        <div className="max-w-7xl mx-auto">
-          <p className='inline-block w-[69rem] text-2xl font-semibold lg:text-3xl text-left mb-10 italic relative after:absolute after:ml-[1rem] after:w-full after:h-[1px] after:bg-[#7d7789] after:left-25 after:top-1/2 after:-translate-y-1/2'>About  HYJ</p>
+        <div className="max-w-7xl mx-auto ">
+          <p className='w-auto text-2xl font-semibold lg:text-3xl text-left mb-10 italic relative after:absolute after:ml-[1rem] after:w-full after:h-[1px] after:bg-[#7d7789] after:left-25 after:top-1/2 after:-translate-y-1/2'>About  HYJ</p>
           <div className="max-w-7xl mx-auto flex flex-wrap mt-10 justify-center basis-full text-gray-600 dark:text-white">
-                <div className="img basis-full lg:basis-1/2 lg:mt-9"> 
+                <div className="basis-full lg:basis-1/2 lg:mt-9"> 
                   <div className="w-[30rem] h-[30rem] lg:w-[32rem] lg:h-[32rem] rounded-xl profile mx-auto"></div>
                 </div>
-                <div className="txt mt-10 lg:mt-14 basis-full lg:basis-1/2 ">
+                <div className="txt mt-10 lg:mt-14 basis-full lg:basis-1/2">
                     <ul className=" font-medium text-lg md:text-xl lg:text-2xl mx-3">
                     {/* {offsetTop} */}
                       <li className="ko" style={{opacity: (position - 400)/150}}>안녕하세요 👋 주니어 프론트엔드 개발자 홍윤정입니다.</li>
