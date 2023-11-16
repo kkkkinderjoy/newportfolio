@@ -131,7 +131,7 @@ function Skill() {
  
   return (
     <>
-        <div className="w-full h-full bg-white py-20">
+        <div className="w-full h-full bg-white py-20 dark:bg-slate-800 dark:text-white">
             <div className="max-w-7xl mx-auto flex flex-wrap">
               <p className='inline-block w-[74rem] text-2xl font-semibold lg:text-3xl text-left mb-10 italic relative after:absolute after:ml-[1rem] after:w-full after:h-[1px] after:bg-[#7d7789] after:left-25 after:top-1/2 after:-translate-y-1/2'>Skills</p>
               <div className="max-w-7xl mx-2 flex flex-wrap flex-col">
@@ -141,7 +141,7 @@ function Skill() {
                 {
                   FrontEnd.map((e,i)=>{
                     return(
-                      <p key={i} className=" font-medium border-[2px] border-gray-500 rounded-2xl p-2 text-sm text-md lg:text-lg">{e.name}</p>
+                      <p key={i} className=" font-medium border-[2px] dark:border-white border-gray-500 rounded-2xl p-2 text-sm text-md lg:text-lg">{e.name}</p>
                     )
                   })
                 }
@@ -153,7 +153,7 @@ function Skill() {
                 {
                   BackEnd.map((e,i)=>{
                     return(
-                      <p key={i}  className=" font-medium border-[2px] border-gray-500 rounded-2xl p-2 text-sm text-md lg:text-lg">{e.name}</p>
+                      <p key={i}  className=" font-medium border-[2px] dark:border-white  border-gray-500 rounded-2xl p-2 text-sm text-md lg:text-lg">{e.name}</p>
                     )
                   })
                 }
@@ -165,7 +165,7 @@ function Skill() {
                 {
                   Database.map((e,i)=>{
                     return(
-                      <p key={i}  className=" font-medium border-[2px] border-gray-500 rounded-2xl p-2 text-sm text-md lg:text-lg">{e.name}</p>
+                      <p key={i}  className=" font-medium border-[2px] dark:border-white border-gray-500 rounded-2xl p-2 text-sm text-md lg:text-lg">{e.name}</p>
                     )
                   })
                 }
@@ -178,14 +178,14 @@ function Skill() {
                 {
                   Etc.map((e,i)=>{
                     return(
-                      <p key={i} className=" font-medium border-[2px] border-gray-500 rounded-2xl p-2 text-sm text-md lg:text-lg">{e.name}</p>
+                      <p key={i} className=" font-medium border-[2px] dark:border-white border-gray-500 rounded-2xl p-2 text-sm text-md lg:text-lg">{e.name}</p>
                     )
                   })
                 }
                 <div className="flex flex-wrap  p-[2rem] gap-9 w-full">
-                    <div className="basis-full md:basis-[45%] h-auto border-[2px] border-gray-500 rounded-[2rem] relative m-2">
-                      <div className="absolute -left-10 -top-5 text-[1.1rem] md:text-[1.5rem] border-[0.2rem] border-[#7da8d0] bg-white p-[0.5rem_1rem] lg:text-[2rem] font-medium">React</div>
-                      <div className="m-[3rem] text-gray-600 font-medium text-md  lg:text-lg">
+                    <div className="basis-full md:basis-[45%] h-auto border-[2px] dark:border-white border-gray-500 rounded-[2rem] relative m-2">
+                      <div className="absolute -left-10 -top-5 text-[1.1rem] md:text-[1.5rem] border-[0.2rem] border-[#7da8d0] bg-white dark:bg-slate-800 p-[0.5rem_1rem] lg:text-[2rem] font-medium ">React</div>
+                      <div className="m-[3rem] text-gray-600  dark:text-white font-medium text-md  lg:text-lg">
                           <div className="lg:leading-[2.5rem] relative z-10 ">
                             • Redux로 상태관리 라이브러리 사용경험이 있습니다
                           </div>
@@ -197,9 +197,9 @@ function Skill() {
                           </div>
                       </div>
                     </div>
-                    <div className="basis-full md:basis-[45%] h-auto border-[2px] border-gray-500  rounded-[2rem] relative m-2">
-                     <div className="absolute -left-10 -top-5 text-[1.1rem] md:text-[1.5rem] border-[0.2rem] border-[#7da8d0] bg-white p-[0.5rem_1rem] lg:text-[2rem] font-medium">Next.js</div>
-                     <div className="m-[3rem] text-gray-600 font-medium text-md lg:text-lg">
+                    <div className="basis-full md:basis-[45%] h-auto border-[2px] border-gray-500 dark:border-white rounded-[2rem] relative m-2">
+                     <div className="absolute -left-10 -top-5 text-[1.1rem] md:text-[1.5rem] border-[0.2rem] border-[#7da8d0] bg-white dark:bg-slate-800 p-[0.5rem_1rem] lg:text-[2rem] font-medium">Next.js</div>
+                     <div className="m-[3rem] text-gray-600 dark:text-white font-medium text-md lg:text-lg">
                           <div className="leading-[1.5rem] lg:leading-[2.5rem] relative z-10">
                           • 서버와의 데이터 통신을 위해 API 엔드포인트를 생성하거나 외부 API와의 통신을 구현할 수 있습니다
                           </div>
@@ -212,9 +212,9 @@ function Skill() {
                       </div>
                      
                     </div>
-                    <div className="basis-full md:basis-[45%] h-auto border-[2px] border-gray-500  rounded-[2rem] relative m-2">
-                     <div className="absolute -left-10 -top-5 text-[1.1rem] md:text-[1.5rem] border-[0.2rem] border-[#7da8d0] bg-white p-[0.5rem_1rem] lg:text-[2rem] font-medium">HTML/CSS</div>
-                     <div className="m-[3rem] text-gray-600 font-medium text-md lg:text-lg">
+                    <div className="basis-full md:basis-[45%] h-auto border-[2px] border-gray-500 dark:border-white rounded-[2rem] relative m-2">
+                     <div className="absolute -left-10 -top-5 text-[1.1rem] md:text-[1.5rem] border-[0.2rem] border-[#7da8d0] bg-white dark:bg-slate-800 p-[0.5rem_1rem] lg:text-[2rem] font-medium">HTML/CSS</div>
+                     <div className="m-[3rem] text-gray-600 dark:text-white font-medium text-md lg:text-lg">
                           <div className="leading-[1.5rem] lg:leading-[2.5rem] relative z-10">
                           • CSS 미디어 쿼리를 사용하여 반응형 웹 디자인을 구현할 수 있습니다.
                           </div>
@@ -226,9 +226,9 @@ function Skill() {
                           </div>
                       </div>
                     </div>
-                    <div className="basis-full md:basis-[45%] h-auto border-[2px] border-gray-500  rounded-[2rem] relative m-2">
-                     <div className="absolute -left-10 -top-5 text-[1.1rem] md:text-[1.5rem] border-[0.2rem] border-[#7da8d0] bg-white p-[0.5rem_1rem] lg:text-[2rem] font-medium">Javascript</div>
-                     <div className="m-[3rem] text-gray-600 font-medium text-md lg:text-lg">
+                    <div className="basis-full md:basis-[45%] h-auto border-[2px] border-gray-500 dark:border-white rounded-[2rem] relative m-2">
+                     <div className="absolute -left-10 -top-5 text-[1.1rem] md:text-[1.5rem] border-[0.2rem] border-[#7da8d0] bg-white dark:bg-slate-800 p-[0.5rem_1rem] lg:text-[2rem] font-medium">Javascript</div>
+                     <div className="m-[3rem] text-gray-600 dark:text-white font-medium text-md lg:text-lg">
                           <div className="leading-[1.5rem] lg:leading-[2.5rem] relative z-10">
                           • JavaScript를 사용하여 서버와의 데이터 통신을 구현할 수 있습니다.
                           </div>

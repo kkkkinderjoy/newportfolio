@@ -4,8 +4,16 @@ import React, { useEffect, useState } from 'react'
 
 function Main() {
   const [position,setPosition]=useState(0);
+
+
+  // 스크롤 이벤트에 따라 가로 스크롤이 발생하는 이유는 position 상태 변수를 사용하여 텍스트를 가로로 이동시키는 부분입니다. 이를 해결하기 위해서는 position 값을 조정하는 방법이 필요합니다.
+  // onScroll 이벤트 핸들러 함수를 수정하여 스크롤 이벤트가 발생할 때 position 값을 제한하는 방법입니다.
   const onScroll= (e) =>{
-    setPosition(window.scrollY)
+    const maxScroll = document.documentElement.scrollWidth - window.innerWidth;
+    const scrollY = window.scrollY;
+    const newPosition = Math.max(0, Math.min(scrollY, maxScroll));
+    setPosition(newPosition);
+
   }
   useEffect(()=>{
     window.addEventListener("scroll", onScroll)
@@ -16,11 +24,11 @@ function Main() {
   return (
     <>
     {/* 다크모드 버튼 */}
-      <div className="w-full h-[780px] bg-white text-slate-900 pt-10">
+      <div className="w-full h-[780px] bg-white text-slate-900 pt-10 dark:bg-slate-800 dark:text-white">
          {/*   bg-[#F8FAFB] */}
           <div className="max-w-7xl mx-auto flex-wrap relative">
                 <div className="flex justify-center my-8">
-                    <div className="lg:flex lg:items-center lg:flex-row lg:gap-12">
+                    <div className="lg:flex lg:items-center lg:flex-row lg:gap-12 overflow-x-hidden">
                         <div className="wave w-[20rem] h-[20rem] md:w-[25rem] md:h-[25rem] lg:w-[30rem] lg:h-[30rem] animate-morph">
                         <div className="txt ">
                             <div className="absolute top-10 right-10 ">

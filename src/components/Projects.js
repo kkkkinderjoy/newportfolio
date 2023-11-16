@@ -15,7 +15,6 @@ function Projects() {
     const[data,setData] =useState(datalist);
     const [cateGory,setCateGory] = useState("전체");
 
-    //필터기능 넣기 
     const menuType =["All","Clone","Project","WebApp"]
     const FilterData = datalist && datalist.filter(e=>{
         return cateGory === "All" || cateGory === e.type
@@ -23,24 +22,9 @@ function Projects() {
     const handleCategoryClick = (category) => {
         setCateGory(category);
       };
-
-    // const[type,setType]=useState('전체');
-    // const dataFilter = datalist.filter(e=>{
-    //   if(type ==="전체"){
-    //     return e.type
-    //   }else{
-    //     return e.type === type
-    //   }
-    // })
-    // console.log(dataFilter)
-    // const FilterType = [...new Set(datalist.map((e=>e.type)))]
-    // console.log(FilterType)
     const toggle = () =>{
       setIsActive(!isActive);
     }
-    // const toggle2 = () =>{
-    //   setIsActive2(!isActive2);
-    // }
     const MouseLeave=()=>{
       setIsActive(false)
     }
@@ -56,17 +40,17 @@ function Projects() {
     
   return (
         <>
-          <div className="w-full h-full flex py-20">
+          <div className="w-full h-full flex py-20 dark:bg-slate-800 dark:text-white">
             <div className="max-w-7xl mx-auto">
               <p className='inline-block w-[71rem] text-2xl font-semibold lg:text-3xl text-left mb-10 italic relative after:absolute after:ml-[1rem] after:w-full after:h-[1px] after:bg-[#7d7789] after:left-25 after:top-1/2 after:-translate-y-1/2'>Projects</p>
-            <div className="max-w-7xl mx-auto my-2">
-                <div className="wrapper-filters">
-                      <div className="filters relative max-w-7xl mx-2 lg:mx-auto flex justify-between mb-10">
-                        <ul className="flex">
+            <div className="max-w-7xl mx-auto my-2 ">
+                <div className="wrapper-filters ">
+                      <div className="filters relative max-w-7xl mx-2 lg:mx-auto flex justify-between mb-10 ">
+                        <ul className="flex ">
                         {
                             menuType.map((category,i)=>{
                               return(
-                                <li key={i} className={`${isActive === i ? 'bg-[#146ebe] text-white' :'bg-white text-black'} cursor-pointer mr-2 text-sm md:lg-md lg:text-lg border dark:bg-[#272929] dark:text-[#ebf4f1] p-1 md:p-2 rounded-md`} onClick={()=>{setIsActive(i); handleCategoryClick(category)}}>
+                                <li key={i} className={`${isActive === i ? 'bg-[#146ebe] text-white' :'bg-white text-black'} cursor-pointer mr-2 text-sm md:lg-md lg:text-lg border dark:bg-slate-800 dark:text-[#ebf4f1] p-1 md:p-2 rounded-md`} onClick={()=>{setIsActive(i); handleCategoryClick(category)}}>
                                       {category}
                                 </li>
                               )

@@ -34,13 +34,21 @@ body{
 
 
 /* 다크모드 */
-* {
+/* * {
   @apply dark:text-white dark:bg-gray-800; 
   
+} */
+
+/* Header */
+.shadow-off{
+  box-shadow: -6px -5px 14px 3px #fff, 7px 7px 12px 0px #d0d8e3;
+  text-shadow: 0 0 4px #fff;
+  
 }
-
-
-
+.shadow-on{
+box-shadow: -6px -5px 14px 3px rgb(241,244,245), 7px 7px 12px 0px #d0d8e3;
+text-shadow: 0 0 4px #fff;
+}
 
 
 /* Main */
@@ -49,19 +57,6 @@ body{
 }
 
 
-
-
-
-
-.shadow-off{
-    box-shadow: -6px -5px 14px 3px #fff, 7px 7px 12px 0px #d0d8e3;
-    text-shadow: 0 0 4px #fff;
-    
-}
-.shadow-on{
-  box-shadow: -6px -5px 14px 3px rgb(241,244,245), 7px 7px 12px 0px #d0d8e3;
-  text-shadow: 0 0 4px #fff;
-}
 .wave{
     animation: morph 8s ease-in-out infinite;
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
@@ -118,85 +113,6 @@ body{
   object-fit: cover;
   /* 크로스브라우징  /style={{backgroundPositionY:position /1}}*/
 }
-
-
-
-/* Projects */
-/* .filters span:before{content: ""; position: absolute; right: 5px; height: 15px; width: 15px; background-repeat: no-repeat ; background-position: center; background-size: cover;} */
-
-
-
-
-/* LoadingPage */
-
-  .card1 {
-    position: absolute;
-    top: 0%;
-    left: 40%;
-    transform: rotate(0deg);
-  }
-  
-  .card2 {
-    position: absolute;
-    top: 15%;
-    left:75%;
-    transform: rotate(45deg);
-    
-  }
-  
-  .card3 {
-    position: absolute;
-    top: 50%;
-    left: 90%;
-    transform: rotate(90deg);
-  }
-  
-  .card4 {
-    position: absolute;
-    top: 85%;
-    left: 75%;
-    transform: rotate(135deg);
-  }
-  
-  .card5 {
-    position: absolute;
-    top: 100%;
-    left: 40%;
-    transform: rotate(180deg);
-  }
-  
-  .card6 {
-    position: absolute;
-    top: 85%;
-    right: 70%;
-    transform: rotate(225deg);
-  }
-  
-  .card7 {
-    position: absolute;
-    top: 50%;
-    right: 85%;
-    transform: rotate(270deg);
-  }
-  
-  .card8 {
-    position: absolute;
-    top: 15%;
-    right: 70%;
-    transform: rotate(315deg);
-  }
-  
-@media screen and (max-width:768px){
-  .card1{top: 0%;  left: 40%; }
-  .card2{top: 13%; left: 71%;}
-  .card3{top: 44%; left: 83%;}
-  .card4{top: 76%; left: 72%;}
-  .card5{top: 90%; left: 40%;}
-  .card6{top: 78%; right: 70%;}
-  .card7{top: 45%; right: 82%;}
-  .card8{top: 13%; right: 69%;}
-}
-
 
 .fade-in {
   opacity: 1;
