@@ -24,7 +24,7 @@ function Main() {
   return (
     <>
     {/* 다크모드 버튼 */}
-      <div className="w-full h-[780px] bg-white text-slate-900 pt-10 dark:bg-slate-800 dark:text-white">
+      <div className="w-full h-[820px] bg-white text-slate-900 pt-10 dark:bg-slate-800 dark:text-white">
          {/*   bg-[#F8FAFB] */}
           <div className="max-w-7xl mx-auto flex-wrap relative">
                 <div className="flex justify-center my-8">
