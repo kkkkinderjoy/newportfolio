@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 function About() {
   const [position,setPosition]=useState(0);
   const [offsetTop, setOffsetTop] = useState(0)
+  
   const onScroll= () =>{
     // console.log(window.scrollY)
     setPosition(window.scrollY)
