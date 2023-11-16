@@ -182,8 +182,8 @@ function Skill() {
                     )
                   })
                 }
-                <div className="flex flex-wrap  p-[2rem] gap-9 w-full">
-                    <div className="basis-full md:basis-[45%] h-auto border-[2px] dark:border-white border-gray-500 rounded-[2rem] relative m-2">
+                <div className="flex flex-wrap p-[2rem] gap-9 w-full">
+                    <div className="mx-auto basis-full md:basis-[45%] h-auto border-[2px] dark:border-white border-gray-500 rounded-[2rem] relative m-2">
                       <div className="absolute -left-10 -top-5 text-[1.1rem] md:text-[1.5rem] border-[0.2rem] border-[#7da8d0] bg-white dark:bg-slate-800 p-[0.5rem_1rem] lg:text-[2rem] font-medium ">React</div>
                       <div className="m-[3rem] text-gray-600  dark:text-white font-medium text-md  lg:text-lg">
                           <div className="lg:leading-[2.5rem] relative z-10 ">
@@ -197,7 +197,7 @@ function Skill() {
                           </div>
                       </div>
                     </div>
-                    <div className="basis-full md:basis-[45%] h-auto border-[2px] border-gray-500 dark:border-white rounded-[2rem] relative m-2">
+                    <div className="mx-auto basis-full md:basis-[45%] h-auto border-[2px] border-gray-500 dark:border-white rounded-[2rem] relative m-2">
                      <div className="absolute -left-10 -top-5 text-[1.1rem] md:text-[1.5rem] border-[0.2rem] border-[#7da8d0] bg-white dark:bg-slate-800 p-[0.5rem_1rem] lg:text-[2rem] font-medium">Next.js</div>
                      <div className="m-[3rem] text-gray-600 dark:text-white font-medium text-md lg:text-lg">
                           <div className="leading-[1.5rem] lg:leading-[2.5rem] relative z-10">
@@ -212,7 +212,7 @@ function Skill() {
                       </div>
                      
                     </div>
-                    <div className="basis-full md:basis-[45%] h-auto border-[2px] border-gray-500 dark:border-white rounded-[2rem] relative m-2">
+                    <div className="mx-auto basis-full md:basis-[45%] h-auto border-[2px] border-gray-500 dark:border-white rounded-[2rem] relative m-2">
                      <div className="absolute -left-10 -top-5 text-[1.1rem] md:text-[1.5rem] border-[0.2rem] border-[#7da8d0] bg-white dark:bg-slate-800 p-[0.5rem_1rem] lg:text-[2rem] font-medium">HTML/CSS</div>
                      <div className="m-[3rem] text-gray-600 dark:text-white font-medium text-md lg:text-lg">
                           <div className="leading-[1.5rem] lg:leading-[2.5rem] relative z-10">
@@ -226,7 +226,7 @@ function Skill() {
                           </div>
                       </div>
                     </div>
-                    <div className="basis-full md:basis-[45%] h-auto border-[2px] border-gray-500 dark:border-white rounded-[2rem] relative m-2">
+                    <div className="mx-auto basis-full md:basis-[45%] h-auto border-[2px] border-gray-500 dark:border-white rounded-[2rem] relative m-2">
                      <div className="absolute -left-10 -top-5 text-[1.1rem] md:text-[1.5rem] border-[0.2rem] border-[#7da8d0] bg-white dark:bg-slate-800 p-[0.5rem_1rem] lg:text-[2rem] font-medium">Javascript</div>
                      <div className="m-[3rem] text-gray-600 dark:text-white font-medium text-md lg:text-lg">
                           <div className="leading-[1.5rem] lg:leading-[2.5rem] relative z-10">
