@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom'
 import { toggleTheme } from '../store';
 
 function Header() {
+  const [isSticky, setIsSticky] = useState(false);
   const darkMode = useSelector(state => state.dark);
   const dispatch = useDispatch()
   const[isActive,setIsActive]=useState(false);
@@ -25,27 +26,40 @@ function Header() {
       window.removeEventListener("scroll", scrollHeight)
     }
   },[])
- 
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+  
+    window.addEventListener("scroll", handleScroll);
+  
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <>   
-    <div className="w-full h-[6rem] bg-white text-slate-800 p-3">        
-      <div className="max-w-7xl mx-auto lg:mx-10 flex-wrap flex justify-between">
-          <ul className="">
-            <li className="">
-              <div className="logo font-extrabold sm:text-lg md:text-xl lg:text-3xl">HYJ</div>
-            </li>
-          </ul>
+    <div className={`z-[100] w-full bg-white text-slate-800 p-3 ${isSticky ? "fixed top-0 h-[4rem] opacity-90 shadow-md" : " h-[6rem]"}`}>        
+      <div className="max-w-full mx-10 flex-wrap flex justify-between">
+        <div className="">
+          <div className="logo font-extrabold sm:text-lg md:text-xl lg:text-3xl">HYJ</div>
+        </div>
+        <div className="">
           <ul className='flex gap-3 dark:bg-transparent'>
                     <li className="flex items-center dark:bg-transparent">
                     <NavLink to="/about" className='nav text-sm lg:text-xl relative'>About me</NavLink></li>
                     <li className="flex items-center dark:bg-transparent"><NavLink to="/projects" className='nav text-sm lg:text-xl relative'>Projects</NavLink></li>
-                    <li className="flex items-center dark:bg-transparent"><NavLink to="/projects" className='nav text-sm lg:text-xl relative'>Notion</NavLink></li>
-                    <li className="flex items-center dark:bg-transparent"><NavLink to="/projects" className='nav text-sm lg:text-xl relative'>Github</NavLink></li>
                     <button type='radio' className='text-slate-400 shadow-off rounded-[70px] w-12 text-sm lg:text-lg lg:w-14 h-10 flex items-center justify-center  lg:ml-2 dark:shadow-on' onClick={()=>{dispatch(toggleTheme())}}>
                     <input type="hidden"/>{darkMode === "light" ? "dark" : "light"}
                     </button>
           </ul>
+        </div>
      </div>
     </div>
     </>

@@ -39,10 +39,18 @@ body{
   
 }
 
+
+
+
+
 /* Main */
 .txt-box{
   -webkit-text-stroke: 0.02em rgb(125, 168, 208); 
 }
+
+
+
+
 
 
 .shadow-off{

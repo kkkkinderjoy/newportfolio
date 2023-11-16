@@ -7,7 +7,7 @@ import Gallery from './Gallery'
 import List from './List'
 
 function Projects() {
-
+  
     const[isActive,setIsActive]=useState(false);
     const[isActive2,setIsActive2]=useState(false);
     const[list,setList]=useState(true);
@@ -55,12 +55,12 @@ function Projects() {
     }
     
   return (
-    <>  
-          <div className="w-full h-full flex mt-20">
-            <div className="mx-auto max-w-7xl flex flex-wrap p-[0_2%]">
-              <div className="w-full mt-12 text-center">
-                <p className='text-2xl font-semibold lg:text-4xl text-center mb-10 italic'>Projects</p>
-                  <div className="wrapper-filters">
+        <>
+          <div className="w-full h-full flex py-20">
+            <div className="max-w-7xl mx-auto">
+              <p className='inline-block w-[71rem] text-2xl font-semibold lg:text-3xl text-left mb-10 italic relative after:absolute after:ml-[1rem] after:w-full after:h-[1px] after:bg-[#7d7789] after:left-25 after:top-1/2 after:-translate-y-1/2'>Projects</p>
+            <div className="my-2">
+                <div className="wrapper-filters">
                       <div className="filters relative max-w-7xl mx-2 lg:mx-auto flex justify-between">
                         <ul className="flex">
                         {
@@ -77,13 +77,6 @@ function Projects() {
                             <span className="p-1 cursor-pointer flex" onClick={ActiveList}><FontAwesomeIcon icon={faList} className='sm:text-md md:text-xl lg:text-2xl hover:text-[#146ebe] dark:text-white'/></span>
                             <span className="  p-1 cursor-pointer flex" onClick={ActiveGallery}><FontAwesomeIcon icon={faBorderAll} className='sm:text-md md:text-xl lg:text-2xl hover:text-[#146ebe] dark:text-white'/></span>
                           </div>
-                         
-                          {/* <span className={`relative pl-[20px]  cursor-pointer ${list ? 'bg-[url("../public/images/icon-filter-list.svg")]' : 'bg-[url("../public/images/filter_icon.svg")]'} bg-no-repeat`} onClick={toggle} >View
-                          </span> */}
-                          {/* <ul className={`list p-[15px] ${isActive ? 'block' : 'hidden'}`} onMouseLeave={()=>{setIsActive(false)}}>
-                              <li className="cursor-pointer pl-5 w-full relative" onClick={ActiveList}>as List</li>
-                              <li className="cursor-pointer pl-5 w-full relative" onClick={ActiveGallery}>as Gallery</li>
-                          </ul> */}
                       </div>
                   </div>
                 </div>
@@ -92,7 +85,7 @@ function Projects() {
                   <List />
                   :<Gallery />
                 }
-          </div>
+            </div>
         </div>
     </>
   )
