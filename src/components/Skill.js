@@ -186,13 +186,13 @@ function Skill() {
                     <div className="basis-full md:basis-[45%] h-auto border-[2px] border-gray-500 rounded-[2rem] relative m-2">
                       <div className="absolute -left-10 -top-5 text-[1.1rem] md:text-[1.5rem] border-[0.2rem] border-[#7da8d0] bg-white p-[0.5rem_1rem] lg:text-[2rem] font-medium">React</div>
                       <div className="m-[3rem] text-gray-600 font-medium text-md  lg:text-lg">
-                          <div className="leading-[2.5rem] relative z-10 ">
+                          <div className="lg:leading-[2.5rem] relative z-10 ">
                             • Redux로 상태관리 라이브러리 사용경험이 있습니다
                           </div>
-                          <div className="leading-[2.5rem] relative z-10">
+                          <div className="lg:leading-[2.5rem] relative z-10">
                             • 컴포넌트의 재사용성을 고려해 컴포넌트를 구현할 수 있습니다
                           </div>
-                          <div className="leading-[2.5rem] relative z-10">
+                          <div className="lg:leading-[2.5rem] relative z-10">
                           • React Router와 같은 라이브러리를 사용하여 라우팅을 구현할 수 있습니다
                           </div>
                       </div>
@@ -200,13 +200,13 @@ function Skill() {
                     <div className="basis-full md:basis-[45%] h-auto border-[2px] border-gray-500  rounded-[2rem] relative m-2">
                      <div className="absolute -left-10 -top-5 text-[1.1rem] md:text-[1.5rem] border-[0.2rem] border-[#7da8d0] bg-white p-[0.5rem_1rem] lg:text-[2rem] font-medium">Next.js</div>
                      <div className="m-[3rem] text-gray-600 font-medium text-md lg:text-lg">
-                          <div className="leading-[2.5rem] relative z-10">
+                          <div className="leading-[1.5rem] lg:leading-[2.5rem] relative z-10">
                           • 서버와의 데이터 통신을 위해 API 엔드포인트를 생성하거나 외부 API와의 통신을 구현할 수 있습니다
                           </div>
-                          <div className="leading-[2.5rem] relative z-10">
+                          <div className="leading-[1.5rem] lg:leading-[2.5rem] relative z-10">
                           • fetch나 axios 등의 라이브러리를 활용하여 데이터를 요청하고 응답을 처리할 수 있습니다
                           </div>
-                          <div className="leading-[2.5rem] relative z-10">
+                          <div className="leading-[1.5rem] lg:leading-[2.5rem] relative z-10">
                           •  MYSQL과 연동하여 CRUD 기능을 구현하기 위해 RESTful API를 설계할 수 있습니다
                           </div>
                       </div>
@@ -215,13 +215,13 @@ function Skill() {
                     <div className="basis-full md:basis-[45%] h-auto border-[2px] border-gray-500  rounded-[2rem] relative m-2">
                      <div className="absolute -left-10 -top-5 text-[1.1rem] md:text-[1.5rem] border-[0.2rem] border-[#7da8d0] bg-white p-[0.5rem_1rem] lg:text-[2rem] font-medium">HTML/CSS</div>
                      <div className="m-[3rem] text-gray-600 font-medium text-md lg:text-lg">
-                          <div className="leading-[2.5rem] relative z-10">
+                          <div className="leading-[1.5rem] lg:leading-[2.5rem] relative z-10">
                           • CSS 미디어 쿼리를 사용하여 반응형 웹 디자인을 구현할 수 있습니다.
                           </div>
-                          <div className="leading-[2.5rem] relative z-10">
+                          <div className="leading-[1.5rem] lg:leading-[2.5rem] relative z-10">
                           • CSS의 트랜지션과 애니메이션 속성을 사용하여 웹 페이지에 애니메이션 효과를 추가할 수 있습니다.
                           </div>
-                          <div className="leading-[2.5rem] relative z-10">
+                          <div className="leading-[1.5rem] lg:leading-[2.5rem] relative z-10">
                           • Semantic Web에 대한 이해를 바탕으로 상황에 따라 적절한 Semantic Tag를 사용합니다
                           </div>
                       </div>
@@ -229,10 +229,10 @@ function Skill() {
                     <div className="basis-full md:basis-[45%] h-auto border-[2px] border-gray-500  rounded-[2rem] relative m-2">
                      <div className="absolute -left-10 -top-5 text-[1.1rem] md:text-[1.5rem] border-[0.2rem] border-[#7da8d0] bg-white p-[0.5rem_1rem] lg:text-[2rem] font-medium">Javascript</div>
                      <div className="m-[3rem] text-gray-600 font-medium text-md lg:text-lg">
-                          <div className="leading-[2.5rem] relative z-10">
+                          <div className="leading-[1.5rem] lg:leading-[2.5rem] relative z-10">
                           • JavaScript를 사용하여 서버와의 데이터 통신을 구현할 수 있습니다.
                           </div>
-                          <div className="leading-[2.5rem] relative z-10">
+                          <div className="leading-[1.5rem] lg:leading-[2.5rem] relative z-10">
                           • 최신 JavaScript 기능인 ES6 이후의 문법과 기능을 활용할 수 있습니다.
                           </div>
                       </div>

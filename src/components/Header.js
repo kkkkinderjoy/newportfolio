@@ -46,7 +46,7 @@ function Header() {
   return (
     <>   
     <div className={`z-[100] w-full bg-white text-slate-800 p-3 ${isSticky ? "fixed top-0 h-[4rem] opacity-90 shadow-md" : " h-[6rem]"}`}>        
-      <div className="max-w-full mx-10 flex-wrap flex justify-between">
+      <div className="max-w-full mx-auto lg:mx-10 flex-wrap flex justify-between">
         <div className="">
           <div className="logo font-extrabold sm:text-lg md:text-xl lg:text-3xl">HYJ</div>
         </div>

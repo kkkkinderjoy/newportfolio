@@ -59,14 +59,14 @@ function Projects() {
           <div className="w-full h-full flex py-20">
             <div className="max-w-7xl mx-auto">
               <p className='inline-block w-[71rem] text-2xl font-semibold lg:text-3xl text-left mb-10 italic relative after:absolute after:ml-[1rem] after:w-full after:h-[1px] after:bg-[#7d7789] after:left-25 after:top-1/2 after:-translate-y-1/2'>Projects</p>
-            <div className="my-2">
+            <div className="max-w-7xl mx-auto my-2">
                 <div className="wrapper-filters">
-                      <div className="filters relative max-w-7xl mx-2 lg:mx-auto flex justify-between">
+                      <div className="filters relative max-w-7xl mx-2 lg:mx-auto flex justify-between mb-10">
                         <ul className="flex">
                         {
                             menuType.map((category,i)=>{
                               return(
-                                <li key={i} className={`${isActive === i ? 'bg-[#146ebe] text-white' :'bg-white text-black'} cursor-pointer mr-2 text-sm md:lg-md lg:text-lg border dark:bg-[#272929] dark:text-[#ebf4f1] p-1 md:p-2 lg:p-3 rounded-md`} onClick={()=>{setIsActive(i); handleCategoryClick(category)}}>
+                                <li key={i} className={`${isActive === i ? 'bg-[#146ebe] text-white' :'bg-white text-black'} cursor-pointer mr-2 text-sm md:lg-md lg:text-lg border dark:bg-[#272929] dark:text-[#ebf4f1] p-1 md:p-2 rounded-md`} onClick={()=>{setIsActive(i); handleCategoryClick(category)}}>
                                       {category}
                                 </li>
                               )
@@ -75,16 +75,16 @@ function Projects() {
                         </ul>
                         <div className="flex items-center gap-1">
                             <span className="p-1 cursor-pointer flex" onClick={ActiveList}><FontAwesomeIcon icon={faList} className='sm:text-md md:text-xl lg:text-2xl hover:text-[#146ebe] dark:text-white'/></span>
-                            <span className="  p-1 cursor-pointer flex" onClick={ActiveGallery}><FontAwesomeIcon icon={faBorderAll} className='sm:text-md md:text-xl lg:text-2xl hover:text-[#146ebe] dark:text-white'/></span>
+                            <span className="p-1 cursor-pointer flex" onClick={ActiveGallery}><FontAwesomeIcon icon={faBorderAll} className='sm:text-md md:text-xl lg:text-2xl hover:text-[#146ebe] dark:text-white'/></span>
                           </div>
                       </div>
                   </div>
-                </div>
                 { 
                   list ?
                   <List />
                   :<Gallery />
                 }
+                </div>
             </div>
         </div>
     </>

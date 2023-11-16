@@ -1,7 +1,7 @@
 import React from 'react'
 import data from '../data/data.json'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlayCircle } from '@fortawesome/free-solid-svg-icons'
+import { faPlayCircle, faPlusCircle } from '@fortawesome/free-solid-svg-icons'
 
 function Gallery() {
   return (
@@ -20,12 +20,13 @@ function Gallery() {
                       <div className="">
                         <ul className="">
                           <li className="text-md text-slate-600"><p className="border-t-[1px] border-slate-800 p-1">{e.type}</p></li>
-                          <li className="text-md text-slate-600"><p className="p-1">작업기간 : {e.period}</p></li>
-                          <li className="text-md text-slate-600"><p className="p-1">기여도 : {e.contribution}</p></li>
-                          <li className="text-md"><p className="p-1">{e.skill}</p></li>
+                          <li className="text-md text-slate-600"><p className="p-1"><span className='font-semibold'>개발기간</span> : {e.period}</p></li>
+                          <li className="text-md text-slate-600"><p className="p-1"><span className='font-semibold'>기여도</span> : {e.contribution}</p></li>
+                          <li className="text-md text-slate-600"><p className="p-1"><span className='font-semibold'>사용툴</span> : {e.skill}</p></li>
+                          <li className="text-md text-slate-600"><p className="p-1">{e.desc}</p></li>
                           <li className="flex m-2 justify-end">
-                            <button className="text-xl lg:text-xl p-1 m-1"><FontAwesomeIcon icon={faPlayCircle}/></button>
-                            <button className='bg-slate-900 text-[#fff] rounded-lg p-1'>READ ME</button></li>
+                            <button className="text-xl lg:text-xl p-1 m-1"><FontAwesomeIcon icon={faPlusCircle}/></button>
+                          </li>
                         </ul>
                      </div>
                   </div>

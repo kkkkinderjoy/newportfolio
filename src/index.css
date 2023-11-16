@@ -226,34 +226,4 @@ body{
   }
 }
 
-.project1{
-  background: url('../public/images/parcel_logo.svg') 0 0 no-repeat;
-  background-position: center;
-  
-}
- .project2{
-  background: url('../public/images/toyproject.svg') 0 0 no-repeat;
-  background-position: center;
-}
-.project3{
-  background: url('../public/images/logo.svg') 0 0 no-repeat;
-  background-position: center;
-}
-.project4{
-  background: url('../public/images/greenpingtxt.svg') 0 0 no-repeat;
-  background-position: center;
-}
-.project5{
-  background: url('../public/images/toyproject.svg') 0 0 no-repeat;
-  background-position: center;
-}
-/* 1027 > 이미지 크기 안맞음 로고 수정필요함!! */
-.project6{
-  background: url('../public/images/subwaylogo.svg') 0 0 no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.project7{
-  background: url('../public/images/mcdonaldslogo.svg') 0 0 no-repeat;
-  background-position: center;
-}
+

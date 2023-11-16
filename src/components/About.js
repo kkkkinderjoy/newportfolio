@@ -27,10 +27,10 @@ function About() {
                 <div className="txt mt-10 lg:mt-14 basis-full lg:basis-1/2">
                     <ul className=" font-medium text-lg md:text-xl lg:text-2xl mx-3">
                     {/* {offsetTop} */}
-                      <li className="ko" style={{opacity: (position - 400)/200}}>안녕하세요 👋 주니어 프론트엔드 개발자 홍윤정입니다.</li>
+                      <li className="ko" style={{opacity: (position - 400)/150}}>안녕하세요 👋 주니어 프론트엔드 개발자 홍윤정입니다.</li>
                       <li className="ko my-2" style={{opacity: (position - 450)/230}}>수학문제를 풀면서 어려운 문제를 풀었을 때의 쾌감을 코딩을 하면서 똑같이 느낄 때 즐거움을 느껴요!</li>
                     </ul>
-                    <ul className="flex flex-col gap-1 font-medium text-md text-gray-600 lg:text-xl m-3 mt-10 lg:mt-14" style={{opacity: (position - 650)/150}}>
+                    <ul className="flex flex-col gap-1 font-medium text-md text-gray-600 lg:text-xl m-3 mt-10 lg:mt-14" style={{opacity: (position - 590)/150}}>
                             <li className="ko">🎉 <span className='ko'>1998.08.26</span></li>
                             <li className="ko"> 📍<span className='ml-2'> 대구</span></li>
                             <li className="ko">👩🏻‍💻 <span className=''>그린컴퓨터아트학원 (혼합+디지털컨버저스) React를 활용한 프론트엔드 개발자 양성 (SPA 프로젝트 개발)A  (2023.06 - 2023.11)</span></li>

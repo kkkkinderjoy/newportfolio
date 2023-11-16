@@ -1,64 +1,88 @@
 [   
     {
-        "title":"Parcel Tracking",
+        "title":"Board | 게시판",
         "type":"personal",
-        "kind":"",
-        "period":"3일",
+        "period":"23.11.06 - 23.11.15 (10일)",
         "contribution":"100%",
-        "skill":"React /Typescript",
+        "skill":"Next.js / MYSQL",
+        "desc":"MYSQL의 CRUD의 기능 이해를 위해 제작",
+        "img":"images/board_logo.svg"
+    },
+    {
+        "title":"MMCA | 국립현대미술관 ",
+        "type":"personal",
+        "period":"23.11.3 - 23.11.10 (7일)",
+        "contribution":"100%",
+        "skill":"Next.js / tailwindcss",
+        "desc":"MMCA 사이트의 초기 렌더링 속도를 줄이기 위해 Next.js로 사이트 제작",
+        "img":"images/mmca_logo.svg"
+    },
+    {
+        "title":"Lucky | 오늘의 운세",
+        "type":"personal",
+        "period":"23.10.25 - 23.10.27 (3일)",
+        "contribution":"100%",
+        "skill":"Next.js / Typescript",
+        "desc":"오늘의 운세 Open API를 활용한 사이트 제작",
+        "img":"images/lucky_circle.svg"
+
+    },
+    {
+        "title":"Parcel Tracking | 택배 배송조회",
+        "type":"personal",
+        "period":"23.10.24 - 23.10.27 (4일)",
+        "contribution":"100%",
+        "skill":"React / Typescript",
+        "desc":"스마트택배 API를 이용하여 국내,국외 택배조회 사이트 제작",
         "img":"images/parcel_logo.svg"
     },
     {
-        "title":"Toy Project",
-        "type":"study",
-        "period":"in progress...",
-        "contribution":"20%",
-        "skill":"HTML5 / CSS3 / Javascript",
-        "img":"images/toyproject.svg"
-    },
-    {
-        "title":"Portfolio",
+        "title":"Portfolio | 포트폴리오",
         "type":"personal",
-        "kind":"",
-        "period":"13일",
+        "period":"23.10.16 - 23.11.16 (1개월)",
         "contribution":"100%",
-        "skill":"React / tailwindcss / Figma ",
+        "skill":"React / Redux / Figma",
+        "desc":"",
         "img":"images/logo.svg"
 
     },
     {
-        "title":"Greenping",
+        "title":"Greenping | 그린핑",
         "type":"team",
-        "period":"30일",
+        "period":"23.08.21 - 23.10.09 (1개월)",
         "contribution":"20%",
-        "skill":"React / Redux / styled-components / Firebase / Figma",
+        "skill":"React / Redux / Firebase / Figma",
+        "desc":"캠핑 관련 정보들과 서비스를 제공받고 활성화 된 커뮤니티로 소통이 위한 사이트 제작",
         "img":"images/greenpingtxt.svg"
 
     },
     {
-        "title":"Todo App",
+        "title":"Quiz | 퀴즈",
         "type":"personal",
-        "period":"5일",
-        "contribution":"100%",
-        "skill":"Node.js / React / MongoDB",
-        "img":"images/toyproject.svg"
+        "period":"23.08.29 - 23.09.8 (11일)",
+        "contribution":"20%",
+        "skill":"React / tailwindcss",
+        "desc":"반복문과 필터 연습을 위해 html,css,javascript 관련 퀴즈 사이트 제작",
+        "img":"images/quiz_logo.svg"
 
     },
     {
-        "title":"Subway Website",
+        "title":"Subway Website | 서브웨이",
         "type":"clone",
-        "period":"7일",
+        "period":"23.07.20 - 23.07.27 (7일)",
         "contribution":"100%",
         "skill":"HTML5 / CSS3",
+        "desc":"",
         "img":"images/subwaylogo.svg"
 
     },
     {
-        "title":"Mcdonald's Website",
+        "title":"Mcdonald's Website | 맥도날드",
         "type":"clone",
-        "period":"15일",
+        "period":"23.07.14 - 23.07.28 (14일)",
         "contribution":"100%",
         "skill":"HTML5 / CSS3 / Javascript",
+        "desc":"웹 개발에 필요한 다양한 기술과 기능을 학습하기 위해 사이트 제작",
         "img":"images/mcdonaldslogo.svg"
     }
 ]
