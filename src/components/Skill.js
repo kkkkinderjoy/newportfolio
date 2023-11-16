@@ -133,7 +133,7 @@ function Skill() {
     <>
         <div className="w-full h-full bg-white py-20 dark:bg-slate-800 dark:text-white">
             <div className="max-w-7xl mx-auto">
-              <p className='w-auto text-2xl font-semibold lg:text-3xl text-left mb-10 italic relative after:absolute after:ml-[1rem] after:w-full after:h-[1px] after:bg-[#7d7789] after:left-25 after:top-1/2 after:-translate-y-1/2'>Skills</p>
+              <p className='w-[90%] text-2xl font-semibold lg:text-3xl text-left mb-10 italic relative after:absolute after:ml-[1rem] after:w-full after:h-[1px] after:bg-[#7d7789] after:left-25 after:top-1/2 after:-translate-y-1/2'>Skills</p>
               <div className="max-w-7xl mx-2 flex flex-wrap flex-col">
               <div className="flex flex-col gap-3">
                 <p className="font-semibold text-md md:text-lg lg:text-xl">📕Front-End</p>

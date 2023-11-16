@@ -20,7 +20,7 @@ function About() {
     <>
         <div className="w-full h-full bg-white py-20 dark:bg-slate-800 dark:text-white">
         <div className="max-w-7xl mx-auto ">
-          <p className='w-auto text-2xl font-semibold lg:text-3xl text-left mb-10 italic relative after:absolute after:ml-[1rem] after:w-full after:h-[1px] after:bg-[#7d7789] after:left-25 after:top-1/2 after:-translate-y-1/2'>About  HYJ</p>
+          <p className='w-[90%] text-2xl font-semibold lg:text-3xl text-left mb-10 italic relative after:absolute after:ml-[1rem] after:w-full after:h-[1px] after:bg-[#7d7789] after:left-25 after:top-1/2 after:-translate-y-1/2'>About  HYJ</p>
           <div className="max-w-7xl mx-auto flex flex-wrap mt-10 justify-center basis-full text-gray-600 dark:text-white">
                 <div className="basis-full lg:basis-1/2 lg:mt-9"> 
                   <div className="w-[30rem] h-[30rem] lg:w-[32rem] lg:h-[32rem] rounded-xl profile mx-auto"></div>
