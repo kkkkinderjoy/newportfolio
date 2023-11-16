@@ -31,26 +31,24 @@ function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
+      if (window.scrollY > 100) {
         setIsSticky(true);
       } else {
         setIsSticky(false);
       }
-    };
-  
-    window.addEventListener("scroll", handleScroll);
-  
+    }
+    window.addEventListener("scroll", handleScroll)
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("scroll", handleScroll)
     };
   }, []);
 
   return (
     <>   
-    <div className={`z-[100] w-full h-auto bg-white text-slate-800 p-3 dark:text-white dark:bg-slate-800 ${isSticky ? "fixed top-0 h-[4rem] opacity-90 shadow-md" : " h-[6rem]"}`}>        
+    <div className={`z-[100] w-full h-auto bg-white text-slate-800 p-3 dark:text-white dark:bg-slate-800 ${isSticky ? "sticky top-0 h-[4rem] opacity-90 shadow-md" : "h-[6rem]"}`}>        
       <div className="max-w-full mx-auto lg:mx-10 flex-wrap flex justify-between">
         <div className="">
-          <div className="logo font-extrabold sm:text-lg md:text-xl lg:text-3xl ">HYJ</div>
+          <div className="logo font-extrabold sm:text-lg md:text-xl lg:text-3xl">HYJ</div>
         </div>
         <div className="">
           <ul className='flex gap-3 dark:bg-transparent'>
