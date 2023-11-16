@@ -13,7 +13,7 @@ function Gallery() {
                   
                   return(   
                   <div key={i} className={`text-md mx-10 md:mx-auto basis-[98%] md:basis-[49%] lg:basis-[32%] bg-[#fff] border-[1px] border-slate-900 transition duration-400 hover:scale-105`}>
-                    <div className="text-xl lg:text-2xl border-b-[1px] border-slate-800  p-1 font-semibold dark:text-slate-800">{e.title}</div>
+                    <div className="text-xl lg:text-2xl border-b-[1px] border-slate-800 p-1 font-semibold dark:text-slate-800">{e.title}</div>
                       <div className='' style={{ position: 'relative', paddingBottom: '100%' }}>
                         <img src={e.img} alt="img"  className='object-cover absolute inset-0 w-full h-full'/>
                       </div>
