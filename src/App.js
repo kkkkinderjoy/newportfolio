@@ -9,7 +9,6 @@ import Scroll from "./components/Scroll";
 import Progressbar from "./components/Progressbar";
 import { Provider, useDispatch, useSelector } from "react-redux";
 import store, { toggleTheme } from "./store";
-import Contact from "./components/Contact";
 
 function App(){
 
@@ -66,7 +65,6 @@ function Inner() {
       <About />
       <Skill />
       <Projects />
-      {/* <Contact /> */}
       <Scroll />
       <Footer />
     </>

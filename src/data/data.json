@@ -1,89 +1,99 @@
 [   
     {
         "title":"Board | 게시판",
-        "type":"personal",
+        "type":"Personal",
         "period":"23.11.06 - 23.11.15 (10일)",
         "contribution":"100%",
         "skill":"Next.js / MYSQL",
         "desc":"MYSQL의 CRUD의 기능 이해를 위해 제작",
-        "img":"images/board_logo.svg"
+        "img":"images/board_logo.svg",
+        "vercel":"https://next-board-lemon.vercel.app"
     },
     {
         "title":"MMCA | 국립현대미술관 ",
-        "type":"personal",
+        "type":"Personal",
         "period":"23.11.3 - 23.11.10 (7일)",
         "contribution":"100%",
         "skill":"Next.js / tailwindcss",
         "desc":"MMCA 사이트의 초기 렌더링 속도를 줄이기 위해 Next.js로 사이트 제작",
-        "img":"images/mmca_logo.svg"
+        "img":"images/mmca_logo.svg",
+        "vercel":"https://lucky-teal.vercel.app"
+
     },
     {
         "title":"Lucky | 오늘의 운세",
-        "type":"personal",
+        "type":"Personal",
         "period":"23.10.25 - 23.10.27 (3일)",
         "contribution":"100%",
         "skill":"Next.js / Typescript",
         "desc":"오늘의 운세 Open API를 활용한 사이트 제작",
-        "img":"images/lucky_circle.svg"
+        "img":"images/lucky_circle.svg",
+        "vercel":"https://lucky-teal.vercel.app"
 
     },
     {
         "title":"Parcel Tracking | 택배 배송조회",
-        "type":"personal",
+        "type":"Personal",
         "period":"23.10.24 - 23.10.27 (4일)",
         "contribution":"100%",
         "skill":"React / Typescript",
         "desc":"스마트택배 API를 이용하여 국내,국외 택배조회 사이트 제작",
-        "img":"images/parcel_logo.svg"
+        "img":"images/parcel_logo.svg",
+        "vercel":"https://parcel-tracking-kohl.vercel.app"
     },
     {
         "title":"Portfolio | 포트폴리오",
-        "type":"personal",
+        "type":"Personal",
         "period":"23.10.16 - 23.11.16 (1개월)",
         "contribution":"100%",
         "skill":"React / Redux / Figma",
         "desc":"",
-        "img":"images/logo.svg"
+        "img":"images/logo.svg",
+        "vercel":"https://newportfolio-nine-xi.vercel.app"
 
     },
     {
         "title":"Greenping | 그린핑",
-        "type":"team",
+        "type":"Team",
         "period":"23.08.21 - 23.10.09 (1개월)",
         "contribution":"20%",
         "skill":"React / Redux / Firebase / Figma",
         "desc":"캠핑 관련 정보들과 서비스를 제공받고 활성화 된 커뮤니티로 소통이 위한 사이트 제작",
-        "img":"images/greenpingtxt.svg"
+        "img":"images/greenpingtxt.svg",
+        "vercel":"https://project-greenping.vercel.app"
 
     },
     {
         "title":"Quiz | 퀴즈",
-        "type":"personal",
+        "type":"Personal",
         "period":"23.08.29 - 23.09.8 (11일)",
         "contribution":"20%",
         "skill":"React / tailwindcss",
         "desc":"반복문과 필터 연습을 위해 html,css,javascript 관련 퀴즈 사이트 제작",
-        "img":"images/quiz_logo.svg"
+        "img":"images/quiz_logo.svg",
+        "vercel":"https://lucky-teal.vercel.app"
 
     },
     {
         "title":"Subway Website | 서브웨이",
-        "type":"clone",
+        "type":"Clone",
         "period":"23.07.20 - 23.07.27 (7일)",
         "contribution":"100%",
         "skill":"HTML5 / CSS3",
         "desc":"",
-        "img":"images/subwaylogo.svg"
+        "img":"images/subwaylogo.svg",
+        "vercel":"https://subway-gold.vercel.app"
 
     },
     {
         "title":"Mcdonald's Website | 맥도날드",
-        "type":"clone",
+        "type":"Clone",
         "period":"23.07.14 - 23.07.28 (14일)",
         "contribution":"100%",
         "skill":"HTML5 / CSS3 / Javascript",
         "desc":"웹 개발에 필요한 다양한 기술과 기능을 학습하기 위해 사이트 제작",
-        "img":"images/mcdonaldslogo.svg"
+        "img":"images/mcdonaldslogo.svg",
+        "vercel":"https://mcdonalds-ten.vercel.app"
     }
 ]
 
