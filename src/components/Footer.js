@@ -14,8 +14,8 @@ function Footer() {
           <ul className="">
             <li className="">
               <div className="flex justify-center gap-5 lg:justify-start text-slate-800">
-                <FontAwesomeIcon icon={faEnvelope} size="2xl" />
-                <FontAwesomeIcon icon={faGithubAlt} size="2xl" />
+                <FontAwesomeIcon icon={faEnvelope} size="2xl" className="dark:text-white"/>
+                <FontAwesomeIcon icon={faGithubAlt} size="2xl" className="dark:text-white"/>
               </div>
             </li>
           </ul>
