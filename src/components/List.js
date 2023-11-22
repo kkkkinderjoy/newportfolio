@@ -18,7 +18,7 @@ function List({ data }) {
                   <div className="w-1/5 h-[200px] object-cover inset-0 flex justify-center border-[1px] border-slate-900 dark:border-white dark:bg-white">
                       <img src={e.img} alt="img" className="w-full h-full" />
                   </div>
-                  <div className="text-sm lg:text-md w-4/5 border-y-[1px] border-slate-900 border-r-[1px] p-2 dark:border-white basis-full flex flex-col">
+                  <div className="text-sm lg:text-md w-4/5 border-y-[1px] border-slate-900 border-r-[1px] px-3 dark:border-white basis-full flex flex-col">
                     <ul className="mb-3 flex justify-between basis-1/3">
                       <li className="text-md font-semibold lg:text-lg">
                         {e.title}
@@ -37,7 +37,7 @@ function List({ data }) {
                       <li className="text-sm lg:text-md">
                         사용기술 : {e.skill}
                       </li>
-                      <li className="flex gap-1 text-md font-semibold lg:text-lg">
+                      <li className="flex gap-1 text-md font-semibold lg:text-lg pb-2">
                         <a href={e.vercel} target="_blank" className="border-[1px] border-black rounded-xl p-1 dark:border-white">Vercel</a>
                         <a href={e.github} target="_blank" className="border-[1px] border-black rounded-xl p-1 dark:border-white">READ ME</a>
                       </li>
