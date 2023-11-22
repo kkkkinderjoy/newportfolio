@@ -39,7 +39,7 @@ function Main() {
                   </div>
               <div className="mt-20">
                   <ul className="flex justify-end">
-                    <li className="text-[0.9rem] lg:text-lg mr-2">Last update: 2023.11.16</li>
+                    <li className="text-[0.9rem] lg:text-lg mr-2">Last update: 2023.11.22</li>
                   </ul>
               </div>
           </div>
