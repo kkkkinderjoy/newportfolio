@@ -20,7 +20,7 @@ function About() {
 
   return (
     <>
-      <div id="about" className="w-full h-autobg-white py-20 dark:bg-slate-800 dark:text-white">
+      <div className="w-full h-autobg-white py-20 dark:bg-slate-800 dark:text-white">
         <div className="max-w-7xl mx-auto">
           <p className="w-[85%] text-2xl font-semibold lg:text-3xl text-left mb-10 italic relative after:absolute after:ml-[1rem] after:w-full after:h-[1px] after:bg-[#7d7789] after:left-25 after:top-1/2 after:-translate-y-1/2">
             About HYJ

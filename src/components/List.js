@@ -38,8 +38,8 @@ function List({ data }) {
                         사용기술 : {e.skill}
                       </li>
                       <li className="flex gap-1 text-md font-semibold lg:text-lg">
-                        <a href={e.vercel} target="_blank" className="border-[1px] border-black rounded-xl p-1">Vercel</a>
-                        <a href={e.github} target="_blank" className="border-[1px] border-black rounded-xl p-1">READ ME</a>
+                        <a href={e.vercel} target="_blank" className="border-[1px] border-black rounded-xl p-1 dark:border-white">Vercel</a>
+                        <a href={e.github} target="_blank" className="border-[1px] border-black rounded-xl p-1 dark:border-white">READ ME</a>
                       </li>
                     </ul>
                   </div>

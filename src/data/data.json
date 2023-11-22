@@ -71,7 +71,7 @@
         "skill":"React / tailwindcss",
         "img":"images/quiz_logo.svg",
         "github":"https://github.com/kkkkinderjoy/quiz",
-        "vercel":"https://lucky-teal.vercel.app"
+        "vercel":"https://quiz-ten-lilac.vercel.app"
 
     },
     {
@@ -80,7 +80,6 @@
         "period":"23.07.20 - 23.07.27 (7일)",
         "contribution":"100%",
         "skill":"HTML5 / CSS3",
-        "desc":"",
         "img":"images/subwaylogo.svg",
         "github":"https://github.com/kkkkinderjoy/subway",
         "vercel":"https://subway-gold.vercel.app"
