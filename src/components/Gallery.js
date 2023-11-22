@@ -57,10 +57,12 @@ function Gallery({ data }) {
                     <li className="text-md text-slate-600 dark:text-white">
                       <p className="p-1">{e.desc}</p>
                     </li>
+                    
                     <li className="flex m-2 justify-end">
-                      <button className="text-xl lg:text-xl p-1 m-1">
-                        <FontAwesomeIcon icon={faPlusCircle} />
-                      </button>
+                    <li className="flex gap-1 text-md font-semibold lg:text-lg">
+                        <a href={e.vercel} target="_blank" className="border-[1px] border-black rounded-xl p-1">Vercel</a>
+                        <a href={e.github} target="_blank" className="border-[1px] border-black rounded-xl p-1">READ ME</a>
+                      </li>
                     </li>
                   </ul>
                 </div>
