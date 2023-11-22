@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { NavLink } from 'react-router-dom'
 import { toggleTheme } from '../store';
+import { Link as ScrollLink } from 'react-scroll';
 
 function Header() {
   const [isSticky, setIsSticky] = useState(false);
@@ -53,8 +53,8 @@ function Header() {
         <div className="">
           <ul className='flex gap-3 dark:bg-transparent'>
                     <li className="flex items-center dark:bg-transparent">
-                    <NavLink to="/about" className='nav text-sm lg:text-xl relative'>About me</NavLink></li>
-                    <li className="flex items-center dark:bg-transparent"><NavLink to="/projects" className='nav text-sm lg:text-xl relative'>Projects</NavLink></li>
+                    <ScrollLink to="about" spy={true} smooth={true} duration={800} className='nav text-sm lg:text-xl relative cursor-pointer'>About me</ScrollLink></li>
+                    <li className="flex items-center dark:bg-transparent"><ScrollLink to="projects" spy={true} smooth={true} duration={800} className='nav text-sm lg:text-xl relative cursor-pointer'>Projects</ScrollLink></li>
                     <button type='radio' className='text-slate-400 shadow-off rounded-[70px] w-12 text-sm lg:text-lg lg:w-14 h-10 flex items-center justify-center  lg:ml-2 dark:shadow-on' onClick={()=>{dispatch(toggleTheme())}}>
                     <input type="hidden"/>{darkMode === "light" ? "dark" : "light"}
                     </button>
