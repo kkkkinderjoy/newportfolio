@@ -14,7 +14,7 @@ function List({ data }) {
                   key={i}
                   className="w-full h-auto flex mb-3 mx-2 transition duration-400 hover:scale-105"
                 >
-                  <div className="w-1/5 h-[200px] object-cover inset-0 flex justify-center border-[1px] border-slate-900 dark:border-white dark:bg-white">
+                  <div className="w-1/5 object-cover inset-0 flex justify-center border-[1px] border-slate-900 dark:border-white dark:bg-white">
                       <img src={e.img} alt="img" className="w-full h-full" />
                   </div>
                   <div className="text-sm lg:text-md w-4/5 border-y-[1px] border-slate-900 border-r-[1px] px-3 dark:border-white basis-full flex flex-col">
