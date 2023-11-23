@@ -1,13 +1,12 @@
 import React from "react";
 import data from "../data/data.json";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlusCircle, faPlusSquare } from "@fortawesome/free-solid-svg-icons";
 
 function List({ data }) {
   return (
     <>
       <div className="w-full h-full bg-white dark:bg-slate-800 dark:text-white">
         <div className="max-w-7xl mx-auto flex flex-wrap basis-full">
+          
           {data.map((e, i) => {
             return (
               <>
