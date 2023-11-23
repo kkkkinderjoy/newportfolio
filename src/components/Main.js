@@ -1,13 +1,7 @@
-import { faShoePrints } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react'
 
 function Main() {
   const [position,setPosition]=useState(0);
-
-
-  // 스크롤 이벤트에 따라 가로 스크롤이 발생하는 이유는 position 상태 변수를 사용하여 텍스트를 가로로 이동시키는 부분입니다. 이를 해결하기 위해서는 position 값을 조정하는 방법이 필요합니다.
-  // onScroll 이벤트 핸들러 함수를 수정하여 스크롤 이벤트가 발생할 때 position 값을 제한하는 방법입니다.
   const onScroll= (e) =>{
     setPosition(window.scrollY)
   }

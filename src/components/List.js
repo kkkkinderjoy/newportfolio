@@ -1,7 +1,4 @@
 import React from "react";
-import data from "../data/data.json";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlusCircle, faPlusSquare } from "@fortawesome/free-solid-svg-icons";
 
 function List({ data }) {
   return (

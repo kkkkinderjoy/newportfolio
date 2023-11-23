@@ -5,7 +5,6 @@ function About() {
   const [offsetTop, setOffsetTop] = useState(0);
 
   const onScroll = () => {
-    // console.log(window.scrollY)
     setPosition(window.scrollY);
     const eleTxt = document.querySelector(".txt").getBoundingClientRect();
     setOffsetTop(eleTxt.top);

@@ -1,4 +1,4 @@
-import { faAngleUp, faArrowAltCircleUp, faUpDown } from '@fortawesome/free-solid-svg-icons';
+import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react'
 function Scroll() {
