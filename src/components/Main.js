@@ -2,9 +2,11 @@ import React, { useEffect, useState } from 'react'
 
 function Main() {
   const [position,setPosition]=useState(0);
+
   const onScroll= (e) =>{
     setPosition(window.scrollY)
   }
+  
   useEffect(()=>{
     window.addEventListener("scroll", onScroll)
     return () => {
@@ -14,8 +16,7 @@ function Main() {
   return (
     <>
     {/* 다크모드 버튼 */}
-      <div className="w-full h-[820px] bg-white text-slate-900 pt-10 dark:bg-slate-800 dark:text-white">
-         {/*   bg-[#F8FAFB] */}
+      <div className="w-full h-[820px] bg-white text-slate-900 pt-10 dark:bg-slate-800 dark:text-white overflow-x-hidden">
           <div className="max-w-7xl mx-auto flex-wrap relative">
                 <div className="flex justify-center my-8">
                     <div className="lg:flex lg:items-center lg:flex-row lg:gap-12 overflow-x-hidden">

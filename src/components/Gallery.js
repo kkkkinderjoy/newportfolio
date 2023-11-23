@@ -8,15 +8,13 @@ function Gallery({ data }) {
           {
           data.map((e, i) => {
             return (
-              <div
-                key={i}
+              <div key={i}
                 className={`dark:border-white dark:bg-slate-800 dark:text-white text-md mx-10 md:mx-auto basis-[98%] md:basis-[49%] lg:basis-[32%] bg-[#fff] border-[1px] border-slate-900 transition duration-400 hover:scale-105`}
               >
                 <div className="text-xl lg:text-2xl border-b-[1px] border-slate-800 p-3 font-semibold  dark:text-white">
                   {e.title}
                 </div>
                 <div
-                  className=""
                   style={{ position: "relative", paddingBottom: "100%" }}
                 >
                   <a href={e.vercel} target="_blank">

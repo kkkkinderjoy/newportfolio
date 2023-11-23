@@ -1,4 +1,7 @@
 import React from "react";
+import data from "../data/data.json";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlusCircle, faPlusSquare } from "@fortawesome/free-solid-svg-icons";
 
 function List({ data }) {
   return (
@@ -10,7 +13,7 @@ function List({ data }) {
               <>
                 <div
                   key={i}
-                  className="w-full flex mb-3 mx-2 transition duration-400 hover:scale-105"
+                  className="w-full h-auto flex mb-3 mx-2 transition duration-400 hover:scale-105"
                 >
                   <div className="w-1/5 h-[200px] object-cover inset-0 flex justify-center border-[1px] border-slate-900 dark:border-white dark:bg-white">
                       <img src={e.img} alt="img" className="w-full h-full" />
@@ -29,11 +32,11 @@ function List({ data }) {
                       <li className="text-sm lg:text-md">
                         작업기간 : {e.period}
                       </li>
-                    </ul>
-                    <ul className="flex justify-between items-center mt-4 basis-1/3">
                       <li className="text-sm lg:text-md">
                         사용기술 : {e.skill}
                       </li>
+                    </ul>
+                    <ul className="flex justify-end ">
                       <li className="flex gap-1 text-md font-semibold lg:text-lg pb-2">
                         <a href={e.vercel} target="_blank" className="border-[1px] border-black rounded-xl p-1 dark:border-white">Vercel</a>
                         <a href={e.github} target="_blank" className="border-[1px] border-black rounded-xl p-1 dark:border-white">READ ME</a>

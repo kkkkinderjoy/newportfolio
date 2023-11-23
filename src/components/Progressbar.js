@@ -7,7 +7,7 @@ function Progressbar({ scroll }) {
         <div
           id="progressBar"
           className=" h-2 bg-gradient-to-r transform-width duration-300 origin-top-left from-sky-300 to-violet-300"
-          style={{ transform: `scale(${scroll}, 1)` }}
+          style={{ transform: `scale(${scroll}, 1)`}}
         ></div>
       </div>
     </>
