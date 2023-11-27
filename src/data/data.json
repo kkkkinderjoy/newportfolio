@@ -1,4 +1,14 @@
-[   
+[   {
+        "title":"Quasar App",
+        "type":"Personal",
+        "period":"in progress...",
+        "contribution":"100%",
+        "skill":"Quasar",
+        "img":"images/q_logo.png",
+        "github":"https://github.com/kkkkinderjoy/Quasar",
+        "vercel":"https://quasar-eta.vercel.app/#/"
+
+    },
     {
         "title":"Board | 게시판",
         "type":"Personal",
@@ -8,17 +18,6 @@
         "img":"images/board_logo.svg",
         "github":"https://github.com/kkkkinderjoy/next_board",
         "vercel":"https://next-board-lemon.vercel.app"
-    },
-    {
-        "title":"MMCA | 국립현대미술관 ",
-        "type":"Personal",
-        "period":"in progress...",
-        "contribution":"100%",
-        "skill":"Next.js / tailwindcss",
-        "img":"images/mmca_logo.svg",
-        "github":"https://github.com/kkkkinderjoy/MMCA",
-        "vercel":""
-
     },
     {
         "title":"Lucky | 오늘의 운세",
